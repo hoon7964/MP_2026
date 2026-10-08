@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp">
+
+        <TableRow android:layout_marginBottom="20dp" android:gravity="center_vertical">
+            <EditText
+                android:id="@+id/etobjA"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/bg"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:layout_marginEnd="20dp" />
+        <ImageView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:src="@drawable/turtle" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="20dp" android:gravity="center_vertical">
+            <EditText
+                android:id="@+id/etobjB"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/bg"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:layout_marginEnd="20dp" />
+        <ImageView
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:src="@drawable/fish"
+                android:scaleType="fitStart" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과보기" />
+    </LinearLayout>
