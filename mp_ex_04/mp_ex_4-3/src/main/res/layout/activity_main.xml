@@ -1,4 +1,4 @@
-<?xml version="1.0"
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -34,7 +34,6 @@
                 android:layout_height="240dp"
                 android:layout_marginBottom="50dp">
 
-                <!-- 캐릭터 착용 목걸이 (위치/크기 유지) -->
 
                 <ImageView
                     android:id="@+id/ivobjBody"
@@ -52,11 +51,9 @@
 
                 <ImageView android:id="@+id/ivobjNecklace" android:layout_width="65dp" android:layout_height="65dp" android:layout_gravity="top|center_horizontal" android:layout_marginTop="70dp" android:visibility="invisible" />
 
-                <!-- 캐릭터 착용 왕관 (위치/크기 유지) -->
                 <ImageView android:id="@+id/ivobjCrown" android:layout_width="85dp" android:layout_height="85dp" android:layout_gravity="top|center_horizontal" android:layout_marginTop="-20dp" android:visibility="invisible" />
             </FrameLayout>
 
-            <!-- 👑 왕관 선택 메뉴: 80dp 적용 (가로 공간에 맞게 여백을 10dp로 조정) -->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -67,7 +64,6 @@
                 <ImageView android:id="@+id/imageViewCrown2" android:layout_width="80dp" android:layout_height="80dp" android:src="@drawable/crown2" android:onClick="onClickChoice" />
             </LinearLayout>
 
-            <!-- 💍 목걸이 선택 메뉴: 80dp 적용 -->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -77,7 +73,6 @@
             </LinearLayout>
         </LinearLayout>
 
-        <!-- 오른쪽 영역: 드레스 3종 -->
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -99,7 +94,6 @@
 
     </LinearLayout>
 
-    <!-- 하단 다시하기 버튼 -->
     <Button
         android:id="@+id/btnReset"
         android:layout_width="match_parent"
