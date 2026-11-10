@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">mp_ex_7-1</string>
+    <string name="menu_add">더하기</string>
+    <string name="menu_sub">빼기</string>
+    <string name="menu_mul">곱하기</string>
+    <string name="menu_div">나누기</string>
+</resources>

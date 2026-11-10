@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_up"
+        android:title="Thumbs Up"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_down"
+        android:title="Thumbs Down"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_init"
+        android:title="Initialize" />
+    <item
+        android:id="@+id/menu_close"
+        android:title="Close" />
+</menu>
